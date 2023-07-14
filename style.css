@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Merienda", cursive;
+}
+body::before {
+  background: url(image.jpg) no-repeat center;
+  background-size: cover;
+  position: fixed;
+  content: " ";
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: +1;
+}
+.aaroh h1 {
+  font-family: "Julee", cursive;
+  font-size: 5rem;
+  margin-top: 0.625rem;
+
+  background: linear-gradient(
+    to left,
+    rgb(233 59 233),
+    rgb(240 158 8 / 89%),
+    rgb(50 199 223),
+    rgb(14, 243, 14),
+    rgb(213 238 8),
+    rgb(240, 159, 10),
+    rgb(12 255 233)
+  );
+
+  -webkit-background-clip: text;
+  color: transparent;
+  /* text-shadow: 0 0 30px white; */
+}
+header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+#first-section {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 42px 0px; */
+}
+
+#date,
+#num,
+#name,
+#number,
+#year,
+#name1 {
+  border-radius: 14px;
+  padding: 3px;
+  margin: 0px;
+  width: 94%;
+  font-family: "Merienda", cursive;
+}
+
+.payment {
+  margin: 8px;
+  color: white;
+  font-size: 1.25rem;
+  font-family: "Merienda", cursive;
+}
+.payment i {
+  /* font-size:"48px" */
+
+  content: "\f1f0";
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+}
+.btn-yash:hover {
+  background-color: rgb(243, 29, 29);
+  box-shadow: 0 0 5px rgb(235, 229, 229);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-yash {
+  /* padding: 0px; */
+  /* margin: 2px 0; */
+  background-color: rgb(209, 72, 72);
+}
+#pay {
+  text-decoration: none;
+  color: white;
+  padding: 2px 8px;
+  font-family: "Merienda", cursive;
+}
+/* input[type=submit]{
+  padding: 7px;
+  margin: 7px;
+  border-radius: 8px;
+  background-color: #258125;
+  color: white;
+}
+input[type=submit]:hover{
+  
+} */
+input[type="text"] {
+  font-family: "Merienda", cursive;
+  font-size: 0.85rem;
+}
+input[type="number"] {
+  font-family: "Merienda", cursive;
+  font-size: 0.85rem;
+}
+
+#left-side {
+  font-size: 1.5rem;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+#left-side span {
+  color: whitesmoke;
+  text-shadow: 0 0 10px rgb(247, 34, 116);
+  font-size: 1.9rem;
+}
+#left-side p {
+  color: white;
+}
+#disease {
+  /* font-size: 1rem; */
+}
+.names {
+  display: flex;
+}
+#booking {
+  padding: 9px;
+  margin: 11px 0;
+  border-radius: 8px;
+  background-color: #258125;
+  color: white;
+  width: 97%;
+  margin-top: 0;
+}
+
+#booking:hover {
+  background-color: rgb(16, 184, 16);
+  color: rgb(226, 223, 223);
+  box-shadow: 0 0 5px rgb(235, 229, 229);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+form h2 {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  text-shadow: 0 0 8px black;
+  /* font-family:Arial, Helvetica, sans-serif ; */
+}
+form {
+  border: 0.3rem solid rgb(207 163 163);
+  padding: 1rem;
+  width: 25.1rem;
+  height: 27rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: white 0px 0px 15px;
+  background-color: rgba(15, 15, 15, 0.7);
+}
+
+#right-side p {
+  font-size: 1.25rem;
+  margin: 1px 0;
+  font-weight: bolder;
+}
+label {
+  color: white;
+  font-family: "Merienda", cursive;
+  padding-top: 5px;
+}
+#left-side {
+  background-color: rgba(15, 15, 15, 0.7);
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 10px 30px;
+  border-radius: 7px;
+  box-shadow: white 0px 0px 15px;
+  border: 0.3rem solid rgb(207 163 163);
+}
+#name,
+#name1 {
+  width: 87%;
+}
+#nhmc {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+
+  position: absolute;
+  left: 720px;
+}
+.bd-placeholder-img {
+  position: relative;
+  left: 145px;
+}
+.line {
+  border-top: 45px solid rgb(255, 255, 255, 0.8);
+  margin: 45px 0 50px;
+}
+
+.council h3 {
+  font-size: 2.5rem;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  background-color: rgb(249, 252, 251, 0.8);
+  margin: 60px 0;
+}
+.images-council {
+  box-sizing: border-box;
+}
+.row {
+  padding-left: 0px auto;
+
+  margin-left: 80px;
+}
+.container {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.firstbox {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+}
+.ps {
+  margin: 10px 20px 1px;
+}
+.secondbox {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+}
+.seniors {
+  margin: 10px 20px 1px;
+}
+.ps,
+.as img {
+  clip-path: circle(45% at 50% 50%);
+}
+.seniors img {
+  clip-path: circle(44% at 50% 50%);
+}
+.fir,
+.fir1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(12, 12, 12, 0.8);
+  border-radius: 65px;
+}
+.fir {
+  margin: 0 10px;
+  border-radius: 65px;
+}
+.fir1 {
+  padding: 0 20px;
+}
+.seniors {
+  color: white;
+  text-align: center;
+  background-color: rgb(12, 12, 12, 0.8);
+  border-radius: 65px;
+}
+.text-center {
+  margin: 0 350px;
+}
+nav {
+  background-color: black;
+  padding: 3px 2px;
+}
+
+#nhmc-text {
+  font-size: 1.8rem;
+}
+#foot{
+  color: white;
+}
+@media (max-width: 700px) {
+  .navbar {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  #nhmc {
+    display: none;
+  }
+  #nhmc-text {
+    font-size: 1.3rem;
+  }
+  nav {
+    background-color: rgb(3, 3, 3);
+    width: 127%;
+    padding: 5px;
+  }
+  .aaroh {
+    text-align: center;
+  }
+  .aaroh h1 {
+    position: relative;
+    left: 70px;
+  }
+  .navbar-toggler {
+    padding: 0 1px;
+    display: none;
+  }
+  #first-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-item{
+    width: 126%;
+    padding: 0 15px
+  }
+  #left-side{
+    font-size: 1.4rem;
+    margin: 20px 0;
+    width: 100%;
+  }
+  .council h3{
+    width: 128%;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 45px;
+  }
+  .firstbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+  }
+  .secondbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+  }
+  .fir{
+    margin: 10px 0;
+  }
+  .line{
+    display: none;
+  }
+footer{
+  width: 112%;
+}
+#foot{
+  color: rgb(10, 10, 10);
+    
+    width: 50%;
+    position: absolute;
+    left: -205px;
+    background-color:rgba(248, 245, 245, 0.9);
+    border-radius: 10px;
+}
+#right-side{
+  display: block;
+  padding: 10px;
+  text-align: justify;
+}
+#left-side{
+  display: block;
+    padding: 10px;
+    text-align: justify;
+}
+}
+
